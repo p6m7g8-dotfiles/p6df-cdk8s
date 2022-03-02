@@ -44,6 +44,7 @@
 
 #### p6df-cdk8s/init.zsh:
 
+- p6df::modules::cdk8s::clones()
 - p6df::modules::cdk8s::deps()
 - p6df::modules::cdk8s::init()
 - p6df::modules::cdk8s::langs()
