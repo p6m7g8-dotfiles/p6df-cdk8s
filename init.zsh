@@ -21,10 +21,7 @@ p6df::modules::cdk8s::deps() {
 ######################################################################
 p6df::modules::cdk8s::langs() {
 
-  npm uninstall -g cdk8s-cli
-  npm install -g cdk8s-cli
-  npm list -g -depth 0
-  nodenv rehash
+  p6_js_npm_global_install "cdk8s-cli"
 }
 
 ######################################################################
