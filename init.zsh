@@ -8,7 +8,7 @@
 p6df::modules::cdk8s::deps() {
   ModuleDeps=(
     #	cdk8s-team/cdk8s
-    p6m7g8/p6df-kubernetes
+    p6m7g8-dotfiles/p6df-kubernetes
   )
 }
 
