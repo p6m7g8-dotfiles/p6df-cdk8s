@@ -54,6 +54,6 @@ p6df::modules::cdk8s::clones() {
 ######################################################################
 p6df::modules::cdk8s::profile::mod() {
 
-  p6_return_words 'cdk8s' '$CDK8S_OUTDIR'
+  p6_return_words 'cdk8s' "$"
 }
 
