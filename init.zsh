@@ -40,3 +40,20 @@ p6df::modules::cdk8s::clones() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words cdk8s $CDK8S_OUTDIR = p6df::modules::cdk8s::profile::mod()
+#
+#  Returns:
+#	words - cdk8s $CDK8S_OUTDIR
+#
+#  Environment:	 CDK8S_OUTDIR
+#>
+######################################################################
+p6df::modules::cdk8s::profile::mod() {
+
+  p6_return_words 'cdk8s' '$CDK8S_OUTDIR'
+}
+
