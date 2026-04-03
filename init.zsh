@@ -54,6 +54,6 @@ p6df::modules::cdk8s::clones() {
 ######################################################################
 p6df::modules::cdk8s::profile::mod() {
 
-  p6_return_words 'cdk8s' "$"
+  p6_return_words 'cdk8s' '$CDK_DEPLOYMENT_ACCOUNT' '$CDK_DEPLOYMENT_REGION' '$CDK_DEFAULT_ACCOUNT' '$CDK_DEFAULT_REGION'
 }
 
