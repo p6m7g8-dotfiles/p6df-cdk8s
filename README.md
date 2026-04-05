@@ -38,6 +38,7 @@ TODO: Add a short summary of this module.
 - `p6df::modules::cdk8s::clones()`
 - `p6df::modules::cdk8s::deps()`
 - `p6df::modules::cdk8s::langs()`
+- `words cdk8s = p6df::modules::cdk8s::profile::mod()`
 
 ## Hierarchy
 

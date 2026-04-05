@@ -44,12 +44,12 @@ p6df::modules::cdk8s::clones() {
 ######################################################################
 #<
 #
-# Function: words cdk8s $CDK_DEPLOYMENT_ACCOUNT $CDK_DEPLOYMENT_REGION $CDK_DEFAULT_ACCOUNT $CDK_DEFAULT_REGION = p6df::modules::cdk8s::profile::mod()
+# Function: words cdk8s = p6df::modules::cdk8s::profile::mod()
 #
 #  Returns:
-#	words - cdk8s $CDK_DEPLOYMENT_ACCOUNT $CDK_DEPLOYMENT_REGION $CDK_DEFAULT_ACCOUNT $CDK_DEFAULT_REGION
+#	words - cdk8s
 #
-#  Environment:	 CDK_DEPLOYMENT_ACCOUNT CDK_DEPLOYMENT_REGION CDK_DEFAULT_ACCOUNT CDK_DEFAULT_REGION
+#  Environment:	 CDK_DEFAULT_ACCOUNT CDK_DEFAULT_REGION CDK_DEPLOYMENT_ACCOUNT CDK_DEPLOYMENT_REGION
 #>
 ######################################################################
 p6df::modules::cdk8s::profile::mod() {
